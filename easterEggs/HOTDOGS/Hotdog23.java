@@ -1,15 +1,15 @@
 import java.util.Scanner;
-public class CheckPalindrome{
+public class Hotdog23{
 public static void main(String[] args){
-Scanner input = new Scanner(System.in);
+Scanner apple = new Scanner(System.in);
 System.out.print("Enter weight of 1st package :");
-double weight1 = input.nextDouble();
+double weight1 = apple.nextDouble();
 System.out.print("Enter price of 1st package:");
-double price1 = input.nextDouble();
+double price1 = apple.nextDouble();
 System.out.print("Enter weight of 2nd package :");
-double weight2 = input.nextDouble();
+double weight2 = apple.nextDouble();
 System.out.print("Enter price of 2nd package:");
-double price2 = input.nextDouble();
+double price2 = apple.nextDouble();
 if (price1 < price2){
 System.out.println (" 1st package has the better price per unit weight.");
 }
