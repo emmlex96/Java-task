@@ -1,0 +1,10 @@
+    public class Blizz13{
+      
+        public static void main(string[]args  ){
+
+String city = "Wisconsin";
+
+System.out.print("i live in %s%n" ,city);
+        
+        }
+}
